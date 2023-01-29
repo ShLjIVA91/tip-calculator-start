@@ -17,4 +17,4 @@ bill_with_tip = bill * percentage
 bill_pot = bill_with_tip + bill
 message = bill_pot / people
 
-print("{:.2f}".format(message))
+print("Each person should pay {:.2f}".format(message))
